@@ -26,6 +26,14 @@ La aplicación realiza solicitudes GET mediante URLSession para obtener informac
 - Consulta de ingredientes e instrucciones de preparación
 - Indicador de carga mediante ProgressView
 
+## Arquitectura MVVM
+
+La aplicación utiliza el patrón Model-View-ViewModel (MVVM) para mantener el código organizado.
+
+- **Model:** Define la estructura de los datos de las recetas recibidos desde la API
+- **View:** Muestra las recetas y permite navegar entre las diferentes pantallas
+- **ViewModel:** Realiza las solicitudes a la API, procesa los datos y administra los estados de carga y error
+
 ## Cómo ejecutar la aplicación
 
 - Xcode: 27v
